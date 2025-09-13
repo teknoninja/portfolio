@@ -46,6 +46,75 @@ export const Projects =()=>{
         >
           <motion.div
             className="project-image"
+            style={{ backgroundImage: "url('/projects/chatApp.png')" }}
+            whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
+          />
+          <h3> Connectly Realtime ChatApp</h3>
+          <p>
+          Developed a real-time chat platform with one-to-one messaging capabilities using Supabase’s Realtime API.Implemented image sharing and file upload functionality with secure storage management, enabling features like sign-up, login, and the 
+          ability to block/unblock other users.Enhanced with smooth background animations for an engaging user 
+          experience. 
+          </p>
+          <div className="project-tech">
+            <span>ReactJS</span>
+            <span>SupaBase</span>
+            <span>Css</span>
+          </div>
+        </motion.div>
+        <motion.div
+          className="project-card"
+          variants={fadeInUp}
+          whileHover={{ y: -10, transition: { duration: 0.2 } }}
+        >
+          <motion.div
+            className="project-image"
+            style={{ backgroundImage: "url('/projects/rat3.webp')" }}
+            whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
+          />
+          <h3> Muscle-Rat</h3>
+          <p>
+          Built an online fitness platform that lets users search for exercises using Workout APIs and view related tutorials via 
+          the YouTube API.Integrated RapidAPI endpoints to fetch exercise details Implemented a responsive and user-friendly interface in React for smooth navigation 
+          </p>
+          <div className="project-tech">
+            <span>ReactJS</span>
+            <span>RapidApI</span>
+            <span>Css</span>
+          </div>
+        </motion.div>
+         
+        <motion.div
+          className="project-card"
+          variants={fadeInUp}
+          whileHover={{ y: -10, transition: { duration: 0.2 } }}
+        >
+          <motion.div
+            className="project-image"
+            style={{
+              backgroundImage: "url('/projects/drums.jpeg')",
+            }}
+            whileHover={{ scale: 1.05 }}
+            transition={{ duration: 0.2 }}
+          />
+          <h3>Drum Kit</h3>
+          <p>
+            A simple interactive project for fun where every keypress or click creates a unique drum beat. This project showcases how simple JavaScript concepts like event listeners, DOM manipulation, and audio APIs can turn a static webpage into a playful musical experience.
+          </p>
+          <div className="project-tech">
+            <span>Html</span>
+            <span>JavaScript</span>
+            <span>CSS</span>
+          </div>
+        </motion.div>
+        
+
+        <motion.div
+          className="project-card"
+          variants={fadeInUp}
+          whileHover={{ y: -10, transition: { duration: 0.2 } }}
+        >
+          <motion.div
+            className="project-image"
             style={{ backgroundImage: "url('/projects/dishes1.jpg')" }}
             whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
           />
@@ -59,6 +128,8 @@ export const Projects =()=>{
             <span>Html</span>
           </div>
         </motion.div>
+        
+        
 
         <motion.div
           className="project-card"
@@ -84,29 +155,7 @@ export const Projects =()=>{
           </div>
         </motion.div>
 
-        <motion.div
-          className="project-card"
-          variants={fadeInUp}
-          whileHover={{ y: -10, transition: { duration: 0.2 } }}
-        >
-          <motion.div
-            className="project-image"
-            style={{
-              backgroundImage: "url('/projects/drums.jpeg')",
-            }}
-            whileHover={{ scale: 1.05 }}
-            transition={{ duration: 0.2 }}
-          />
-          <h3>Drum Kit</h3>
-          <p>
-            A simple interactive project for fun where every keypress or click creates a unique drum beat. This project showcases how simple JavaScript concepts like event listeners, DOM manipulation, and audio APIs can turn a static webpage into a playful musical experience.
-          </p>
-          <div className="project-tech">
-            <span>Html</span>
-            <span>JavaScript</span>
-            <span>CSS</span>
-          </div>
-        </motion.div>
+        
       </motion.div>
     </motion.section> 
     )

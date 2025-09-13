@@ -105,17 +105,18 @@ export const Hero = ()=>{
               style={vscDarkPlus}
             >
               {`const aboutMe: DeveloperProfile = {
-  codename: "PedroTech",
-  origin: "🌍 Somewhere between a coffee shop and a terminal",
-  role: "Fullstack Web Sorcerer",
+  codername: "Shivam-Tyagi",
+  origin: "🌍 Somewhere between GitHub Galaxy and Stack Overflow Island",
+  role: "Alchemist of Fullstack Web Dev and Software Testing",
   stack: {
-    languages: ["JavaScript", "TypeScript", "SQL"],
-    frameworks: ["React", "Next.js", "TailwindCSS", "Supabase"],
+    languages: ["TypeScript","Java","C++","PostgresSQL"],
+    Testing frameworks :["Selenium Webdriver","Playwright","RestAssured"]
+    Development frameworks: ["React.JS", "TailwindCSS", "Supabase"],
   },
   traits: [
     "pixel-perfectionist",
     "API whisperer",
-    "dark mode advocate",
+    "Bug Killer",
     "terminal aesthetic enthusiast",
   ],
   missionStatement:
