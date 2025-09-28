@@ -132,10 +132,10 @@ export const Hero = ()=>{
             transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
           >
             <div className="card-content">
-              <span className="card-icon"> 💻 </span>
+              
               <span className="card-text">
                 {" "}
-                Currently working on something awesome!
+              This Code snippet contains my Tech Stack and skills   .
               </span>
             </div>
           </motion.div>

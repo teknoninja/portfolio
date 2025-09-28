@@ -91,6 +91,30 @@ export const Projects =()=>{
           <motion.div
             className="project-image"
             style={{
+              backgroundImage: "url('/projects/shop1.jpg')",
+            }}
+            whileHover={{ scale: 1.05 }}
+            transition={{ duration: 0.2 }}
+          />
+          <h3>Fit-Wear</h3>
+          <p>
+          Developed a fully responsive e-commerce platform with different categories, providing an intuitive shopping experience and smooth navigation.Integrated Sanity as a headless CMS to enable easy content management and dynamic product updates without code changes.Implemented Stripe payment gateway for secure checkout, handling payments, order confirmations, and error states.
+          </p>
+          <div className="project-tech">
+            <span>Sanity</span>
+            <span>ReactJS</span>
+            <span>Stripe</span>
+          </div>
+        </motion.div>
+
+        <motion.div
+          className="project-card"
+          variants={fadeInUp}
+          whileHover={{ y: -10, transition: { duration: 0.2 } }}
+        >
+          <motion.div
+            className="project-image"
+            style={{
               backgroundImage: "url('/projects/drums.jpeg')",
             }}
             whileHover={{ scale: 1.05 }}

@@ -233,7 +233,7 @@ body {
 .floating-card {
   position: absolute;
   bottom: 2rem;
-  right: -2rem;
+  right: 0rem;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   padding: 1rem 1.5rem;
