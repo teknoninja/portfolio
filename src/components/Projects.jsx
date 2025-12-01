@@ -41,21 +41,16 @@ const projectsData = [
     imageUrl: "/projects/drums.jpeg",
     description: "A simple interactive project for fun where every keypress or click creates a unique drum beat. This project showcases how simple JavaScript concepts like event listeners, DOM manipulation, and audio APIs can turn a static webpage into a playful musical experience.",
     tech: ["HTML", "JavaScript", "CSS"],
-    link: "https://your-drum-kit-project-link.com" // <-- Add your deployed link here
+    link: "https://drumkit-eta-rouge.vercel.app/" 
   },
+  
   {
-    title: "Food Delivering webpage",
-    imageUrl: "/projects/dishes1.jpg",
-    description: "Designed a simple and user-friendly food delivery webpage with an interactive navbar, seamless ordering flow, and responsive layout with a simple delivery form at the end to ensure orders rightaway.",
-    tech: ["CSS", "Bootstrap", "HTML"],
-    link: "https://your-food-delivery-project-link.com" // <-- Add your deployed link here
-  },
-  {
-    title: "Howl Mate",
-    imageUrl: "/projects/dog.jpg",
-    description: "Designed a playful and engaging dog dating website where pets (and their owners) can find the perfect match.Built with the power of Bootstrap – delivering a clean, responsive, and modern design that looks great on any device.",
-    tech: ["Bootstrap", "HTML", "CSS"],
-    link: "https://your-howl-mate-project-link.com" // <-- Add your deployed link here
+    title: "Automation framework",
+    imageUrl: "/projects/e2e.webp",
+    description: "Designed an Automation framework on Selenium performing E2E testing and Cross Browser testing on my E-commerce Site Fit-Wear. It implements Page Object Model and BDD principles of TestNG.It simulates the user flow of purchasing the product from the site and ensures the Quality flow of Website. ",
+    tech: ["Selenium", "TestNG" ],
+    link:"https://github.com/teknoninja/Test-Automation-Project"
+    
   }
 ];
 
