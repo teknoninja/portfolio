@@ -44,14 +44,14 @@ export const Hero = ()=>{
             variants={fadeInUp}
             whileHover={{ scale: 1.02 }}
           >
-            Tekno Ninja
+            Shivam Tyagi
           </motion.h1>
           <motion.h2 className="hero-subtitle" variants={fadeInUp}>
             {" "}
-            Creative Designer & Developer
+            Gen Ai & Machine Learning Engineer
           </motion.h2>
           <motion.p className="hero-description" variants={fadeInUp}>
-          I craft user-centered web experiences that balance beauty with usability.Designing intuitive interfaces that not only look stunning but feel effortless to use.
+          I  build and deploy Artificial intelligence systems that automate tasks, generate insights, and enhance user experiences.
           </motion.p>
           <motion.div className="cta-buttons" variants={staggerContainer}>
             <motion.a
@@ -106,18 +106,18 @@ export const Hero = ()=>{
             >
               {`const aboutMe: DeveloperProfile = {
   codername: "Shivam-Tyagi",
-  origin: "🌍 Somewhere between GitHub Galaxy and Stack Overflow Island",
-  role: "Alchemist of Fullstack Web Dev and Software Testing",
+  origin: "🌍 Somewhere between GitHub Galaxy and TensorFlow Island",
+  role: "Alchemist of Machine Learning and Gen Ai",
   stack: {
-    languages: ["TypeScript","Java","C++","PostgresSQL"],
-    Testing frameworks :["Selenium Webdriver","Playwright","RestAssured"]
-    Development frameworks: ["React.JS", "TailwindCSS", "Supabase"],
+    languages: ["TypeScript","Java","C++","Python","PostgreSql"],
+    ML frameworks :["Pytorch","TensorFlow","Scikit learn"]
+    Development frameworks: ["React.JS", "Langchain","Haystack"],
   },
   traits: [
-    "pixel-perfectionist",
-    "API whisperer",
-    "Bug Killer",
-    "terminal aesthetic enthusiast",
+    "System Design",
+    "Problem Solving",
+    "Framework Familiarity",
+    "Coding Proficiency",
   ],
   missionStatement:
     "Turning ideas into interfaces and bugs into feature",
