@@ -34,7 +34,7 @@ const projectsData = [
     imageUrl: "/projects/rat3.webp",
     description: "  An AI-powered fitness Platform that gives you a personal coach, nutritionist, and program designer in the browser. Integrated fitness platform with client-side routing, code splitting, and REST API integration for 1,300+ exercises, while orchestrating a MediaPipe + Gemini pipeline for on-device pose estimation, AI-powered nutrition analysis, personalized workout plans, and PDF export. ",
     tech: ["ReactJS", "RapidAPI", "MediaPipe","Gemini API"],
-    link: "https://muscle-rat-ucpc.vercel.app/" // <-- Add your deployed link here
+    link: "https://muscle-rat-yjuk.vercel.app/" // <-- Add your deployed link here
   },
   {
     title: "Fit-Wear",
